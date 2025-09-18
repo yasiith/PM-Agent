@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from jira_server import JiraMCPClient
+from jira_mcp_client import JiraMCPClient
 import openai
 from dotenv import load_dotenv
 
